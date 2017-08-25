@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:statistical-issues/statistical-issues.github.io.git
