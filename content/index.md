@@ -1,11 +1,15 @@
 ---
 date: 2016-03-08T21:07:13+01:00
-title: Material for Hugo
+title: A web about Statistics, Modelling and Programming
 type: index
 weight: 0
 ---
 
-## Beautiful documentation
+## Welcome!
+
+This a documentation web about statistical theory, modelling and implimentation. We try to cover brief theory about models being used as well as implementations on some programming languages like R and Python.
+
+## Theme
 
 Material is a theme for [Hugo](https://gohugo.io), a fast and flexible static site generator. It is built using Google's [material design](https://www.google.com/design/spec/material-design/introduction.html)
 guidelines, fully responsive, optimized for touch and pointer devices as well

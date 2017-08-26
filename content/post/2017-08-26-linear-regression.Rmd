@@ -1,0 +1,14 @@
+---
+title: Linear Regression
+author: ~
+date: '2017-08-26'
+slug: linear-regression
+categories: []
+tags: []
+menu:
+  main:
+    parent: Modelling
+    idenitfier: Linear Regression
+    weight: 5
+---
+

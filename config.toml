@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Material Docs"
+title = "Statistical Issues"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
@@ -9,13 +9,13 @@ googleAnalytics = ""
 
 [params]
 	# General information
-	author = "Digitalcraftsman"
-	description = "A material design theme for documentations."
+	author = "Erick Chacon, Vilma Romero and Rommy Camasca"
+	description = "A website about statistical modelling and related topics."
 	copyright = "Released under the MIT license"
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
+	repo_url = "https://github.com/statistical-issues/statistical-issues.github.io"
 
 	version = "1.0.0"
 	logo = "images/logo.png"
@@ -31,8 +31,8 @@ googleAnalytics = ""
 	highlight_css  = ""
 
 	[params.palette]
-    	primary = "red"
-    	accent  = "teal"
+    	primary = "blue"
+    	accent  = "red"
 
     [params.font]
     	text = "Ubuntu"
@@ -46,29 +46,49 @@ googleAnalytics = ""
 
 
 [[menu.main]]
-	name   = "Material"
+	name   = "About"
 	url    = "/"
 	weight = 0
+	
+[[menu.main]]
+	name   = "Statistics"
+	weight = 5
+	
+[[menu.main]]
+	name   = "Inference"
+	weight = 6
+	
+[[menu.main]]
+	name   = "Modelling"
+	weight = 7
+	
+[[menu.main]]
+	name   = "R Tutorials"
+	weight = 8
 
 [[menu.main]]
-	name   = "Getting started"
-	url    = "getting-started/"
-	weight = 10
+	name   = "Python Tutorials"
+	weight = 9
 
-[[menu.main]]
-	name   = "Adding content"
-	url    = "adding-content/"
-	weight = 20
-
-[[menu.main]]
-	name   = "Roadmap"
-	url    = "roadmap/"
-	weight = 30
-
-[[menu.main]]
-	name   = "License"
-	url    = "license/"
-	weight = 40
+# [[menu.main]]
+# 	name   = "Getting started"
+# 	url    = "getting-started/"
+# 	weight = 10
+#
+# [[menu.main]]
+# 	name   = "Adding content"
+# 	url    = "adding-content/"
+# 	weight = 20
+#
+# [[menu.main]]
+# 	name   = "Roadmap"
+# 	url    = "roadmap/"
+# 	weight = 30
+#
+# [[menu.main]]
+# 	name   = "License"
+# 	url    = "license/"
+# 	weight = 40
 
 
 [blackfriday]

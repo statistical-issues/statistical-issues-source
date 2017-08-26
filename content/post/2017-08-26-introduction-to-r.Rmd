@@ -1,0 +1,14 @@
+---
+title: Introduction to R
+author: ~
+date: '2017-08-26'
+slug: introduction-to-r
+categories: []
+tags: []
+menu:
+  main:
+    parent: R Tutorials
+    idenitfier: Introduction to R
+    weight: 5
+---
+
