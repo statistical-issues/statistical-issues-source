@@ -49,19 +49,19 @@ googleAnalytics = ""
 	name   = "About"
 	url    = "/"
 	weight = 0
-	
+
 [[menu.main]]
 	name   = "Statistics"
 	weight = 5
-	
+
 [[menu.main]]
 	name   = "Inference"
 	weight = 6
-	
+
 [[menu.main]]
 	name   = "Modelling"
 	weight = 7
-	
+
 [[menu.main]]
 	name   = "R Tutorials"
 	weight = 8

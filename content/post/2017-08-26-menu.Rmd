@@ -1,0 +1,18 @@
+---
+title: Checking
+author: ~
+date: '2017-08-26'
+slug: Checking
+categories: []
+tags: []
+menu: ["program", "main"]
+---
+
+fdsfds fds
+
+<!-- menu: -->
+<!--   program: -->
+<!--     parent: Python -->
+<!--     idenitfier: Linear -->
+<!--     weight: 5 -->
+
