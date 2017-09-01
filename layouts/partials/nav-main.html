@@ -3,13 +3,9 @@
 <!-- here is where to define which menu to use -->
 <!-- variables defined inside a if conditional are not global -->
 
-{{ if (isset .Params "menuname") }}
-{{ $.Scratch.Add "menu" (index .Site.Menus .Params.menuname).ByWeight}}
-{{ else }}
-{{ $.Scratch.Add "menu" .Site.Menus.about.ByWeight }}
-{{ end }}
+{{ $.Scratch.Add "menumain" .Site.Menus.main.ByWeight }}
 
-{{ range ($.Scratch.Get "menu") }}
+{{ range ($.Scratch.Get "menumain") }}
 
 {{ $.Scratch.Set "currentMenuEntry" . }}
 <li>

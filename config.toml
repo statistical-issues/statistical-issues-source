@@ -17,7 +17,7 @@ googleAnalytics = ""
 	provider = "GitHub"
 	repo_url = "https://github.com/statistical-issues/statistical-issues.github.io"
 
-	version = "1.0.0"
+	version = ""
 	logo = "images/logo.png"
 	favicon = ""
 
@@ -41,14 +41,20 @@ googleAnalytics = ""
 
 [social]
 	twitter = ""
-	github  = "digitalcraftsman"
-	email   = "hello@email.com"
+	github  = "statistical-issues"
+	# email   = "hello@email.com"
 
+
+# [[menu.main]]
+# 	name   = "About"
+# 	url    = "/"
+# 	weight = 0
 
 [[menu.main]]
-	name   = "About"
-	url    = "/"
-	weight = 0
+	name   = "Blog"
+        url = "post"
+	weight = 1
+
 
 [[menu.main]]
 	name   = "Statistics"
