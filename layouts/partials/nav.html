@@ -1,0 +1,28 @@
+{{ $currentNode := . }}
+
+<!-- here is where to define which menu to use -->
+<!-- variables defined inside a if conditional are not global -->
+
+{{ if (isset .Params "menuname") }}
+{{ $.Scratch.Add "menu" (index .Site.Menus .Params.menuname).ByWeight}}
+{{ else }}
+{{ $.Scratch.Add "menu" .Site.Menus.main.ByWeight }}
+{{ end }}
+
+{{ range ($.Scratch.Get "menu") }}
+
+{{ $.Scratch.Set "currentMenuEntry" . }}
+<li>
+  {{ if .HasChildren }}
+    <span class="section">{{ .Name | title }}</span>
+    <ul>
+      {{ range .Children }}
+        {{ $.Scratch.Set "currentMenuEntry" . }}
+        {{ partial "nav_link" $currentNode }}
+      {{ end }}
+    </ul>
+  {{ else }}
+    {{ partial "nav_link" $currentNode }}
+  {{ end }}
+</li>
+{{ end }}

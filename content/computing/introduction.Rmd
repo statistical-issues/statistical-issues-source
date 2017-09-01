@@ -1,14 +1,14 @@
 ---
-title: "Random Variables"
+title: "Computing Methods"
 author: "Frida Gomam"
 date: 2015-07-23T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 menu:
-  main:
-    parent: Statistics
-    idenitfier: Random Variables
+  computing:
+    name: Introduction
     weight: 5
+menuname: "computing"
 ---
 
 ```{r setup, include=FALSE}

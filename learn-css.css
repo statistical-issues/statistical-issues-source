@@ -1,0 +1,75 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    /* background-color: #333; */
+    background-color: red;
+/*     overflow: hidden; */
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    /* color: #f2f2f2; */
+    /* color: blue; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    /* background-color: #ddd; */
+    background-color: red;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    /* color: white; */
+    color: red;
+}
+
+.sidenav {
+    right: 0;
+}
+
+
+
+/* The CSS can be define to control the appereance of several pages */
+body {
+    background-color: red;
+}
+h1 {
+    color:green;
+}
+p {
+    color: red;
+    font-family: courier;
+    font-size: 120%;
+    border: 1px solid powderblue;
+    padding: 30px;
+}
+
+/* We can define an specific style for one special element with certain id */
+/* #p01 { */
+/*     color: blue; */
+/* } */
+
+/* Specific style for p elements with class erick */
+/* p.erick { */
+/*     color: red; */
+/* } */
+
+/* Descendant selector */
+/* div p{ */
+/*   background-color: yellow; */
+/* } */
+
+/* Select and style all elements with class="intro" */
+/* .intro { */
+/*     background-color: red; */
+/* } */

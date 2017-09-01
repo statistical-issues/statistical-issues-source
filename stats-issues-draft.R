@@ -7,7 +7,7 @@ library(blogdown)
 ##
 # blogdown::install_hugo()
 
-new_site('.', theme = 'digitalcraftsman/hugo-material-docs')
+# new_site('.', theme = 'digitalcraftsman/hugo-material-docs')
 
 #setwd('/Users/susanaromero/Documents/1.VR_BLOGPOSTS/BlogRPosts/statsissues')
 #getwd()
@@ -23,4 +23,6 @@ blogdown::new_post("Introduction to R", ext = '.Rmd')
 blogdown::new_post("Introduction to Python", ext = '.Rmd')
 
 # we will create another repository to put other topics separately for programming
+
+error calling index: value is nil; should be of type string
 

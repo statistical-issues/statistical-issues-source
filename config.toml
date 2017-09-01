@@ -24,7 +24,7 @@ googleAnalytics = ""
 	permalink = "#"
 
 	# Custom assets
-	custom_css = []
+	custom_css = ["mycss.css"]
 	custom_js  = []
 
 	# Syntax highlighting theme
@@ -52,44 +52,28 @@ googleAnalytics = ""
 
 [[menu.main]]
 	name   = "Statistics"
+        url = "statistics/introduction"
 	weight = 5
 
 [[menu.main]]
 	name   = "Inference"
-	weight = 6
+        url = "inference/introduction"
+	weight = 10
 
 [[menu.main]]
 	name   = "Modelling"
-	weight = 7
+        url = "modelling/introduction"
+	weight = 15
 
 [[menu.main]]
-	name   = "R Tutorials"
-	weight = 8
+	name   = "Computing"
+        url = "computing/introduction"
+	weight = 20
 
 [[menu.main]]
-	name   = "Python Tutorials"
-	weight = 9
-
-# [[menu.main]]
-# 	name   = "Getting started"
-# 	url    = "getting-started/"
-# 	weight = 10
-#
-# [[menu.main]]
-# 	name   = "Adding content"
-# 	url    = "adding-content/"
-# 	weight = 20
-#
-# [[menu.main]]
-# 	name   = "Roadmap"
-# 	url    = "roadmap/"
-# 	weight = 30
-#
-# [[menu.main]]
-# 	name   = "License"
-# 	url    = "license/"
-# 	weight = 40
-
+	name   = "Software"
+        url = "software/introduction"
+	weight = 25
 
 [blackfriday]
 	smartypants	= true

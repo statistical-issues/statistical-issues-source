@@ -6,10 +6,10 @@ slug: likelihood
 categories: []
 tags: []
 menu:
-  main:
-    parent: Inference
-    idenitfier: Likelihood
-    weight: 5
+  inference:
+    name: Likelihood Function
+    weight: 20
+menuname: "inference"
 ---
 
 intro
