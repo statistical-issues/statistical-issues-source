@@ -9,18 +9,23 @@
       </label>
     </div>
 
-   <div class="topnav">
-      <!-- <a class="navbar&#45;brand" href="#">Statistical Issues</a> -->
-     <ul>
-       <li style="float:left"> <a href="{{ .Params.baseurl }}/">Statistical Issues</a> </li>
-       <li style="float:right"> <a href="{{ .Params.baseurl }}/software/introduction">Software</a> </li>
-       <li style="float:right"> <a href="{{ .Params.baseurl }}/computing/introduction">Computing</a> </li>
-       <li style="float:right"> <a href="{{ .Params.baseurl }}/modelling/introduction">Modelling</a> </li>
-       <li style="float:right"> <a href="{{ .Params.baseurl }}/inference/introduction">Inference</a> </li>
-       <li style="float:right"> <a href="{{ .Params.baseurl }}/statistics/introduction">Statistics</a> </li>
-       <li style="float:right"> <a href="{{ .Params.baseurl }}/post">Blog</a> </li>
-     </ul>
-  </div>
+    <div class="stretch">
+      <div class="title">
+       <a href="{{ .Params.baseurl }}/">{{ .Site.Title }}</a>
+      </div>
+    </div>
+
+  <!--  <div class="topnav"> -->
+  <!--    <ul> -->
+  <!--      <li style="float:left"> <a href="{{ .Params.baseurl }}/">Statistical Issues</a> </li> -->
+  <!--      <li style="float:right"> <a href="{{ .Params.baseurl }}/software/introduction">Software</a> </li> -->
+  <!--      <li style="float:right"> <a href="{{ .Params.baseurl }}/computing/introduction">Computing</a> </li> -->
+  <!--      <li style="float:right"> <a href="{{ .Params.baseurl }}/modelling/introduction">Modelling</a> </li> -->
+  <!--      <li style="float:right"> <a href="{{ .Params.baseurl }}/inference/introduction">Inference</a> </li> -->
+  <!--      <li style="float:right"> <a href="{{ .Params.baseurl }}/statistics/introduction">Statistics</a> </li> -->
+  <!--      <li style="float:right"> <a href="{{ .Params.baseurl }}/post">Blog</a> </li> -->
+  <!--    </ul> -->
+  <!-- </div> -->
 
     {{ with .Site.Social.twitter }}
     <div class="button button-twitter" role="button" aria-label="Twitter">
