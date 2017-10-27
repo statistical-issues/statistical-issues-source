@@ -2,6 +2,7 @@
 # devtools::install_github('rstudio/blogdown')
 
 library(blogdown)
+# blogdown::install_hugo()
 # install_theme("digitalcraftsman/hugo-material-docs",
 #              theme_example = TRUE, update_config = TRUE)
 ##

@@ -6,9 +6,13 @@ slug: linear-regression
 categories: []
 tags: []
 menu:
-  modelling:
+  main:
+    parent: Modelling
     name: Linear Regression
     weight: 10
-menuname: "modelling"
+menuname: "main"
 ---
 
+## fdsf
+
+fdsfd

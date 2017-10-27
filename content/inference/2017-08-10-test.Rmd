@@ -1,5 +1,5 @@
 ---
-title: Statistcal Inference
+title: Statis
 author: ~
 date: '2017-08-26'
 categories: []
@@ -7,10 +7,18 @@ tags: []
 menu:
   main:
     parent: Inference
-    name: Introduction
+    name: statis
     weight: 5
 menuname: "main"
 ---
 
+# dfdf
 intro
 
+## fdsfdsf
+
+fdsf
+
+## fsdafdsf
+
+fdsf

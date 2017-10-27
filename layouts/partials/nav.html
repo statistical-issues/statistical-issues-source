@@ -3,24 +3,37 @@
 <!-- here is where to define which menu to use -->
 <!-- variables defined inside a if conditional are not global -->
 
+<!-- Get the name of the current menu -->
+{{ $.Scratch.Add "menuname" .Params.menuname}}
+{{ $menuname := $.Scratch.Get "menuname"}}
+<!-- {{$menuname}} -->
+
 {{ if (isset .Params "menuname") }}
 {{ $.Scratch.Add "menu" (index .Site.Menus .Params.menuname).ByWeight}}
 {{ else }}
 {{ $.Scratch.Add "menu" .Site.Menus.about.ByWeight }}
 {{ end }}
 
+<!-- {{ ($.Scratch.Get "menu") }} -->
 {{ range ($.Scratch.Get "menu") }}
-
 {{ $.Scratch.Set "currentMenuEntry" . }}
+<!-- {{ $.Scratch.Get "currentMenuEntry"}} -->
+
 <li>
   {{ if .HasChildren }}
-    <span class="section">{{ .Name | title }}</span>
-    <ul>
-      {{ range .Children }}
-        {{ $.Scratch.Set "currentMenuEntry" . }}
-        {{ partial "nav_link" $currentNode }}
-      {{ end }}
-    </ul>
+    <!-- <span class="section">{{ .Name | title }}</span> -->
+
+    <!-- <span class="section">{{ .Name | title }}</span> -->
+    {{ partial "nav_link" $currentNode }}
+    {{ if $.HasMenuCurrent $menuname .}}
+      <ul>
+        {{ range .Children }}
+          {{ $.Scratch.Set "currentMenuEntry" . }}
+          <!-- {{ $.Scratch.Get "currentMenuEntry"}} -->
+          {{ partial "nav_link" $currentNode }}
+        {{ end }}
+      </ul>
+    {{ end }}
   {{ else }}
     {{ partial "nav_link" $currentNode }}
   {{ end }}

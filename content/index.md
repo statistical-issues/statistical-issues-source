@@ -4,9 +4,10 @@ title: A web about Statistics, Modelling and Programming
 type: index
 weight: 0
 menu:
-  about:
+  main:
+    parent: About
     name: About
-menuname: "about"
+menuname: "main"
 ---
 
 ## Welcome!
