@@ -8,6 +8,7 @@ menu:
   main:
     parent: Software
     weight: 5
+    mane: program
 menuname: "main"
 ---
 bla

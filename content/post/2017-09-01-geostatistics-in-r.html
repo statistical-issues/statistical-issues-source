@@ -7,7 +7,7 @@ tags: []
 menu:
   main:
     parent: Blog
-    weight: 1
+    weight: 10
 menuname: "main"
 ---
 

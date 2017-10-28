@@ -1,15 +1,13 @@
 ---
 title: How to setup a web with blogdown
 author: ~
-date: '2017-09-01'
-slug: how-to-setup-a-web-with-blogdown
+date: '2017-09-04'
 categories: []
 tags: []
 menu:
   main:
     parent: Blog
-    name: "Blogdown"
-    weight: 5
+    weight: 20
 menuname: "main"
 ---
 

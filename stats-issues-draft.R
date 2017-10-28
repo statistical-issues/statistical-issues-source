@@ -14,7 +14,7 @@ new_site('material', theme = 'digitalcraftsman/hugo-material-docs')
 #setwd('/Users/susanaromero/Documents/1.VR_BLOGPOSTS/BlogRPosts/statsissues')
 #getwd()
 
-# Sys.setenv(RSTUDIO_PANDOC="/usr/lib/rstudio/bin/pandoc")
+Sys.setenv(RSTUDIO_PANDOC="/usr/lib/rstudio/bin/pandoc")
 blogdown::serve_site()
 
 blogdown::build_site(method = "custom")
@@ -57,7 +57,6 @@ knit_page <- function (input, output, base.dir = NULL, base.url = NULL, ...) {
   knitr::knit(input, output, ... )
 
 }
-
 knit_blog <- function () {
 
   knit_data <- tibble::tibble(

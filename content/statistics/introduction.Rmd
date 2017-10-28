@@ -6,7 +6,7 @@ menu:
   main:
     parent: Statistics
     name: Rmarkdown
-    weight: 5
+    weight: 1
 menuname: "main"
 ---
 
