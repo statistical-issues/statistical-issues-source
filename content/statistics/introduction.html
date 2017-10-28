@@ -1,55 +1,36 @@
 ---
-title: "Concepts of Statistics and Probabilities"
+title: "Concepts of Statistics and Probabilitieds"
 author: "Frida Gomam"
-date: 2015-07-23T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
 menu:
   main:
     parent: Statistics
-    name: Introduction to sds
+    name: Rmarkdown
     weight: 5
 menuname: "main"
 ---
 
 
 
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932</code></pre>
+<div id="welcome" class="section level2">
+<h2>Welcome!</h2>
+<p>This a documentation web about statistical theory, modelling and implimentation. We try to cover brief theory about models being used as well as implementations on some programming languages like R and Python.</p>
 </div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
-<pre class="r"><code>par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
-  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
-  init.angle = -50, border = NA
-)</code></pre>
-<div class="figure"><span id="fig:pie"></span>
-<img src="/statistics/introduction_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
-<p class="caption">
-Figure 1: A fancy pie chart.
-</p>
+<div id="theme" class="section level2">
+<h2>Theme</h2>
+<p>Material is a theme for <a href="https://gohugo.io">Hugo</a>, a fast and flexible static site generator. It is built using Google’s <a href="https://www.google.com/design/spec/material-design/introduction.html">material design</a> guidelines, fully responsive, optimized for touch and pointer devices as well as all sorts of screen sizes.</p>
+<div class="figure">
+<img src="/images/screen.png" alt="Material Screenshot" />
+<p class="caption">Material Screenshot</p>
 </div>
+<p>Material is very lightweight – it is built from scratch using Javascript and CSS that weighs less than 30kb (minified, gzipped and excluding Google Fonts and Analytics). Yet, it is highly customizable and degrades gracefully in older browsers.</p>
+</div>
+<div id="quick-start" class="section level2">
+<h2>Quick start</h2>
+<p>Install with <code>git</code>:</p>
+<pre class="sh"><code>git clone git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs</code></pre>
+</div>
+<div id="acknowledgements" class="section level2">
+<h2>Acknowledgements</h2>
+<p>Last but not least a big thank you to <a href="https://github.com/squidfunk">Martin Donath</a>. He created the original <a href="https://github.com/squidfunk/mkdocs-material">Material theme</a> for Hugo’s companion <a href="http://www.mkdocs.org/">MkDocs</a>. This port wouldn’t be possible without him.</p>
+<p>Furthermore, thanks to <a href="https://gihub.com/spf13">Steve Francia</a> for creating Hugo and the <a href="https://github.com/spf13/hugo/graphs/contributors">awesome community</a> around the project.</p>
 </div>

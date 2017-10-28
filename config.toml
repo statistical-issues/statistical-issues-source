@@ -6,6 +6,7 @@ metadataformat = "yaml"
 canonifyurls = true
 # Enable Google Analytics by entering your tracking id
 googleAnalytics = ""
+ignoreFiles = ["\\.html$"] # igenore html and build from md
 
 [params]
 	# General information
@@ -47,14 +48,13 @@ googleAnalytics = ""
 
 # [[menu.main]]
 # 	name   = "About"
-# 	url    = "/"
-# 	weight = 0
+# 	# url    = "about"
+# 	weight = 1
 
 [[menu.main]]
 	name   = "Blog"
         url = "post"
 	weight = 1
-
 
 [[menu.main]]
 	name   = "Statistics"

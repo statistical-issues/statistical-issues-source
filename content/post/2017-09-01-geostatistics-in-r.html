@@ -5,12 +5,25 @@ date: '2017-09-01'
 categories: []
 tags: []
 menu:
-  Blog:
-menuname: "Blog"
+  main:
+    parent: Blog
+    weight: 1
+menuname: "main"
 ---
 
 
 
+<!-- ```{r setup, include=FALSE} -->
+<!-- knitr::opts_knit$set(base.dir = 'static/post/2017-09-01-geostat/') -->
+<!-- knitr::opts_knit$set(base.url = '/post/2017-09-01-geostat/') -->
+<!-- knitr::opts_chunk$set(echo = TRUE, fig.height = 5, dpi = 200) -->
+<!-- ``` -->
+<!-- knitr::opts_knit$set(base.dir = 'mamadas') -->
+<!-- plop <- file.path(getwd(), 'static/blaaaa') -->
+<!-- knitr::opts_knit$set(base.dir = file.path(getwd(), 'static/blaaaa')) -->
+<!-- knitr::opts_knit$set(base.dir = '/home/chaconmo/Documents/Repositories/statistical-issues-source/static/blaaaa') -->
+<!-- knitr::opts_knit$set(base.url = '/post/2017-09-01-geostat/') -->
+<!-- knitr::opts_knit$set(base.dir = '/static/post/2017-09-01-geostat/') -->
 <div id="r-markdown" class="section level2">
 <h2>R Markdown</h2>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
@@ -35,7 +48,7 @@ fit</code></pre>
 </div>
 <div id="including-plots" class="section level2">
 <h2>Including Plots</h2>
-<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<p>You can also embed plots. See Figure <a href="#fig:pie-test">1</a> for example:</p>
 <pre class="r"><code>par(mar = c(0, 1, 0, 1))
 pie(
   c(280, 60, 20),
@@ -43,10 +56,23 @@ pie(
   col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
   init.angle = -50, border = NA
 )</code></pre>
-<div class="figure"><span id="fig:pie"></span>
-<img src="/post/2017-09-01-geostatistics-in-r_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<div class="figure"><span id="fig:pie-test"></span>
+<img src="/post/2017-09-01-geostatistics-in-r_files/figure-html/pie-test-1.png" alt="A fancy pie chart." width="672" />
 <p class="caption">
 Figure 1: A fancy pie chart.
+</p>
+</div>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie-no-test-bla"></span>
+<img src="/post/2017-09-01-geostatistics-in-r_files/figure-html/pie-no-test-bla-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 2: A fancy pie chart.
 </p>
 </div>
 </div>

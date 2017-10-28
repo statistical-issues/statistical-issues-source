@@ -1,0 +1,17 @@
+---
+title: Likelihood
+author: ~
+date: '2017-08-26'
+slug: likelihood
+categories: []
+tags: []
+menu:
+  main:
+    parent: Inference
+    name: Likelihood Function
+    weight: 20
+menuname: "main"
+---
+
+intro
+
