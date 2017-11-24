@@ -32,7 +32,7 @@ ignoreFiles = ["\\.html$"] # igenore html and build from md
 	highlight_css  = ""
 
 	[params.palette]
-    	primary = "blue"
+    	primary = "blue-grey"
     	accent  = "red"
 
     [params.font]
