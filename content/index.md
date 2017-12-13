@@ -35,4 +35,4 @@ Rommy Camasca is a master student in Statistics at [Federal University of Pernam
 
 <img src="images/LuisChacon.png" alt="Luis Chacon", width = "20%">
 
-Luis Chacon is currently a Data Scientist in [SUNAT](http://www.sunat.gob.pe). Previously, he worked as Project Engineer in [Penta Analytics](http://www.analytics.cl/nosotros-peru/), where he designed and develop analytical tools for different industries. Luis has recently graduated in Statistics from [Universidad Nacional Mayor de San Marcos](http://www.unmsm.edu.pe).
+Luis Chacon is currently a Data Scientist in [SUNAT](http://www.sunat.gob.pe). Previously, he worked as a Project Engineer in [Penta Analytics](http://www.analytics.cl/nosotros-peru/), where he designed and developed analytical tools for different industries. Luis has recently graduated in Statistics from [Universidad Nacional Mayor de San Marcos](http://www.unmsm.edu.pe).
