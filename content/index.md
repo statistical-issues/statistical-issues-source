@@ -1,7 +1,7 @@
 
 ---
 date: 2016-03-08T21:07:13+01:00
-title: A web about Statistics, Modelling and Programming
+title: Welcome to Statistical Issues!
 type: index
 weight: 1
 menu:
@@ -11,17 +11,19 @@ menu:
 menuname: "main"
 ---
 
-## Welcome!
+This a documentation web about statistical theory, modelling and implementation. We try to cover brief theory about models being used as well as implementations on some programming languages like R and Python.
 
-This a documentation web about statistical theory, modelling and implimentation. We try to cover brief theory about models being used as well as implementations on some programming languages like R and Python.
+## Authors
 
-## Quick start
+- **Erick Chacon**
 
-Install with `git`:
+<img src="images/ErickChacon.png" alt="Erick Chacon", width = "20%">
 
-```sh
-git clone git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs
-```
+- **Vilma Romero**
+
+<img src="images/VilmaRomero.png" alt="Erick Chacon", width = "20%">
+
+- **Rommy Camasca**
 
 ## Features
 
