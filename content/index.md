@@ -1,7 +1,7 @@
 
 ---
 date: 2016-03-08T21:07:13+01:00
-title: A web about Statistics, Modelling and Programming
+title: Welcome to Statistical Issues!
 type: index
 weight: 1
 menu:
@@ -11,42 +11,28 @@ menu:
 menuname: "main"
 ---
 
-## Welcome!
+This a documentation web about statistical theory, modelling and implementation. We try to cover brief theory about models being used as well as implementations on some programming languages like R and Python.
 
-This a documentation web about statistical theory, modelling and implimentation. We try to cover brief theory about models being used as well as implementations on some programming languages like R and Python.
+## Authors
 
-## Quick start
+- [**Erick Chacon**](https://erickchacon.github.io)
 
-Install with `git`:
+<img src="images/ErickChacon.png" alt="Erick Chacon", width = "20%"> 
 
-```sh
-git clone git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs
-```
+Erick Chacon is a PhD student in Statistics and Epidemiology in the Faculty of Health and Medicine at [Lancaster University](http://www.lancaster.ac.uk), where he works in the research group [CHICAS](http://chicas.lancaster-university.uk) (Combining Health, Information, Computation and Statistics). Erick received a MSc. in Statistics from [Lancaster University](http://www.lancaster.ac.uk) and a BSc. in Statistics from the [National University of Engineering](http://www.uni.edu.pe). He is passionate about spatial and spatio-temporal modelling, data visualization and computational methods.  
 
-## Features
+- [**Vilma Romero**](https://vilmaromero.github.io)
 
-- Beautiful, readable and very user-friendly design based on Google's material
-  design guidelines, packed in a full responsive template with a well-defined
-  and easily customizable color palette, great typography, as well as a
-  beautiful search interface and footer.
+<img src="images/VilmaRomero.png" alt="Vilma Romero", width = "20%">
 
-- Well-tested and optimized Javascript and CSS including a cross-browser
-  fixed/sticky header, a drawer that even works without Javascript using
-  the [checkbox hack](http://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack/) with fallbacks, responsive tables that scroll when
-  the screen is too small and well-defined print styles.
+Vilma Romero is a Lecturer in Statistics in the [Statistical Engineering School](http://www.fieecs.uni.edu.pe/pregrado_estadistica.html) at the [National University of Engineering](http://www.uni.edu.pe) in Lima, Peru. Vilma received a MSc. in Statistics from [Lancaster University](http://www.lancaster.ac.uk) and a BSc. in Statistics from the [National University of Engineering](http://www.uni.edu.pe). She loves learning and teaching R, with an emphasis on interactive data visualization and statistics.
 
-- Extra configuration options like a project logo, links to the authors
-  GitHub and Twitter accounts and display of the amount of stars the
-  project has on GitHub.
+- **Rommy Camasca**
 
-- Web application capability on iOS – when the page is saved to the homescreen,
-  it behaves and looks like a native application.
+Rommy Camasca is a master student in Statistics at [Federal University of Pernambuco](https://www.ufpe.br). Rommy received a BSc. in Statistics from the [National University of Engineering](http://www.uni.edu.pe).
 
-See the getting started guide for instructions how to get
-it up and running.
+- [**Luis Chacon**](https://www.linkedin.com/in/luis-chacon-unmsm/)
 
-## Acknowledgements
+<img src="images/LuisChacon.png" alt="Luis Chacon", width = "20%">
 
-Last but not least a big thank you to [Martin Donath](https://github.com/squidfunk). He created the original [Material theme](https://github.com/squidfunk/mkdocs-material) for Hugo's companion [MkDocs](http://www.mkdocs.org/). This port wouldn't be possible without him.
-
-Furthermore, thanks to [Steve Francia](https://gihub.com/spf13) for creating Hugo and the [awesome community](https://github.com/spf13/hugo/graphs/contributors) around the project.
+Luis Chacon is currently a Data Scientist in [SUNAT](http://www.sunat.gob.pe). Previously, he worked as a Project Engineer in [Penta Analytics](http://www.analytics.cl/nosotros-peru/), where he designed and developed analytical tools for different industries. Luis has recently graduated in Statistics from [Universidad Nacional Mayor de San Marcos](http://www.unmsm.edu.pe).
